@@ -1,16 +1,27 @@
-# React + Vite
+# react-hello-world
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Descrizione:
 
-Currently, two official plugins are available:
+Create un nuovo progetto React utilizzando Vite: aiutatevi con le slide per ripercorrere i vari passaggi dell'installazione come visti a lezione.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Create una nuova app React e assicuratevi che funzioni avviandola da terminale.
 
-## React Compiler
+Poi pushate tutto.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Remapping
 
-## Expanding the ESLint configuration
+Per chi ne avesse bisogno, ecco il link alla guida per il remapping del backtick e della tilde 🙂
+https://lancellotti-marco.medium.com/remapping-backtick-and-tilde-keyboard-shortcuts-on-windows-e2923e455817
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Bonus
+
+Riorganizzare lo scaffolding per avere la seguente struttura nella cartella src (senza generare errori di compilazione):
+```
+│   App.jsx
+│   main.jsx
+└───assets
+    ├───css
+    │       index.css
+    └───img
+            react.svg
+```
